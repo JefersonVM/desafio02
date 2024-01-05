@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 165px 13px 165px;
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.link-home {
+  color: #5fb4a2;
+}
+
+.container-hero {
+  margin: 70px 165px 30px 165px;
+  position: relative;
+}
+
+.container-hero img {
+  width: 100%;
+}
+
+.text-hero {
+  width: 445px;
+  height: 357px;
+  position: absolute;
+  padding: 56px 28px 101px 27px;
+  left: 0;
+  bottom: 0;
+  color: #33323d;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 32px;
+  font-weight: 700;
+  background-color: #fafafa;
+}
