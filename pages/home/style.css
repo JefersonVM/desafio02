@@ -6,6 +6,11 @@
 
 li {
   list-style: none;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #5fb4a2;
 }
 
 header {
@@ -26,12 +31,15 @@ header {
   color: #5fb4a2;
 }
 
+.link-home:hover {
+  color: #33323d;
+}
 .container-hero {
   margin: 70px 165px 30px 165px;
   position: relative;
 }
 
-.container-hero img {
+.imagem-hero {
   width: 100%;
 }
 
@@ -47,4 +55,33 @@ header {
   font-size: 32px;
   font-weight: 700;
   background-color: #fafafa;
+}
+
+.botao-sobre {
+  width: 200px;
+  height: 48px;
+  border: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #203a4c;
+  color: #fff;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-left: 48px;
+}
+
+.img-botao {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.botao-sobre:hover {
+  background-color: #5fb4a2;
 }
