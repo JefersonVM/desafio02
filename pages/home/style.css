@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 li {
   list-style: none;
   cursor: pointer;
@@ -27,11 +36,11 @@ header {
   font-family: "Public Sans", sans-serif;
 }
 
-.link-home {
+.link-home-header {
   color: #5fb4a2;
 }
 
-.link-home:hover {
+.link-home-header:hover {
   color: #33323d;
 }
 .container-hero {
@@ -84,4 +93,138 @@ header {
 
 .botao-sobre:hover {
   background-color: #5fb4a2;
+}
+
+.container-about {
+  display: flex;
+  margin: 116px 165px 30px 165px;
+}
+
+.imagem-perfil {
+  max-width: 650px;
+}
+
+.text-about {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: rgb(51, 50, 61, 0.15) solid 1px;
+  border-bottom: rgb(51, 50, 61, 0.15) solid 1px;
+}
+
+.text-about h1 {
+  color: #33323d;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 32px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  margin-bottom: 28px;
+}
+
+.text-about p {
+  color: #33323d;
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 24px;
+  text-align: justify;
+}
+
+.text-about button {
+  align-self: center;
+  width: 204px;
+  height: 48px;
+  color: #33323d;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #fafafa;
+  border: 1px solid black;
+}
+
+.text-about button:hover {
+  background-color: #33323d;
+  color: #fafafa;
+}
+
+.contato {
+  display: flex;
+  justify-content: space-between;
+  margin: 116px 165px 150px 165px;
+}
+
+.contato h1 {
+  max-width: 367px;
+  color: #33323d;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  text-align: justify;
+}
+
+.contato button {
+  width: 204px;
+  height: 48px;
+  color: #33323d;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #fafafa;
+  border: 1px solid black;
+}
+
+.contato button:hover {
+  background-color: #33323d;
+  color: #fafafa;
+}
+
+footer {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 165px 0 165px;
+
+  background-color: #33323d;
+}
+.img-nav {
+  display: flex;
+  gap: 48px;
+}
+
+.img-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  color: #fff;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.link-home-footer {
+  color: #5fb4a2;
+}
+
+.link-home-footer:hover {
+  color: #fff;
+}
+
+.icons-redes {
+  display: flex;
+  gap: 12px;
 }
