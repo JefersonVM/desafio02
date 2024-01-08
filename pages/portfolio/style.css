@@ -1,0 +1,76 @@
+.link-portfolio-header {
+  color: #5fb4a2;
+}
+
+.link-portfolio-header:hover {
+  color: #33323d;
+}
+
+.container-portfolio {
+  display: flex;
+  margin: 116px 165px 30px 165px;
+}
+
+.imagem-perfil {
+  max-width: 650px;
+}
+
+.text-portfolio {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: rgb(51, 50, 61, 0.15) solid 1px;
+  border-bottom: rgb(51, 50, 61, 0.15) solid 1px;
+}
+
+.text-portfolio-left {
+  margin-left: 0;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: rgb(51, 50, 61, 0.15) solid 1px;
+  border-bottom: rgb(51, 50, 61, 0.15) solid 1px;
+}
+
+.text-portfolio h1 {
+  color: #33323d;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 32px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  margin-bottom: 28px;
+}
+
+.text-portfolio p {
+  color: #33323d;
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 24px;
+  text-align: justify;
+}
+
+.text-portfolio button {
+  width: 204px;
+  height: 48px;
+  color: #33323d;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #fafafa;
+  border: 1px solid black;
+}
+
+.text-portfolio button:hover {
+  background-color: #33323d;
+  color: #fafafa;
+}

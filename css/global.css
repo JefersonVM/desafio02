@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #5fb4a2;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 165px 13px 165px;
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  color: #33323d;
+  font-family: "Public Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+footer {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 165px;
+  padding-right: 165px;
+
+  background-color: #33323d;
+}
+.img-nav {
+  display: flex;
+  gap: 48px;
+}
+
+.img-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  color: #fff;
+  font-family: "Public Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.link-home-footer {
+  color: #5fb4a2;
+}
+
+.link-home-footer:hover {
+  color: #fff;
+}
+
+.icons-redes {
+  display: flex;
+  gap: 12px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 165px 150px 165px;
+  }
+  
+  .contato h1 {
+    max-width: 367px;
+    color: #33323d;
+    font-family: "Ibarra Real Nova", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.357px;
+    text-align: justify;
+  }
+  
+  .contato button {
+    width: 204px;
+    height: 48px;
+    color: #33323d;
+    font-family: "Public Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #fafafa;
+    border: 1px solid black;
+  }
+  
+  .contato button:hover {
+    background-color: #33323d;
+    color: #fafafa;
+  }
