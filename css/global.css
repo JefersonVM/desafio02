@@ -25,6 +25,10 @@ li:hover {
   color: #5fb4a2;
 }
 
+li a:hover {
+  color: #5fb4a2;
+}
+
 header {
   width: 100%;
   display: flex;
@@ -79,43 +83,61 @@ footer {
 .link-home-footer:hover {
   color: #fff;
 }
+.link-portfolio-footer {
+  color: #5fb4a2;
+}
+
+.link-portfolio-footer:hover {
+  color: #fff;
+}
+
+
+footer ul li a:hover {
+  color: #5fb4a2;
+}
 
 .icons-redes {
   display: flex;
-  gap: 12px;
+  gap: 13px;
+}
+
+.icons-redes a {
+  align-self: center;
+  
 }
 
 .contato {
-    display: flex;
-    justify-content: space-between;
-    margin: 116px 165px 150px 165px;
-  }
-  
-  .contato h1 {
-    max-width: 367px;
-    color: #33323d;
-    font-family: "Ibarra Real Nova", serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: -0.357px;
-    text-align: justify;
-  }
-  
-  .contato button {
-    width: 204px;
-    height: 48px;
-    color: #33323d;
-    font-family: "Public Sans", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    background-color: #fafafa;
-    border: 1px solid black;
-  }
-  
-  .contato button:hover {
-    background-color: #33323d;
-    color: #fafafa;
-  }
+  display: flex;
+  justify-content: space-between;
+  margin: 116px 165px 150px 165px;
+}
+
+.contato h1 {
+  max-width: 367px;
+  color: #33323d;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  text-align: justify;
+}
+
+.contato button {
+  width: 204px;
+  height: 48px;
+  color: #33323d;
+  font-family: "Public Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #fafafa;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.contato button:hover {
+  background-color: #33323d;
+  color: #fafafa;
+}

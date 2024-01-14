@@ -1,14 +1,14 @@
-.link-home-header {
-  color: #5fb4a2;
-}
-
-.link-home-header:hover {
+.navbar-header li a {
+  text-decoration: none;
   color: #33323d;
 }
 
-.link-potfolio-header {
-  text-decoration: none;
+ul .link-home-header a {
   color: #5fb4a2;
+}
+
+ul .link-home-header a:hover {
+  color: #33323d;
 }
 
 .container-hero {
@@ -75,6 +75,7 @@
 .text-about {
   margin-left: 200px;
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   border-top: rgb(51, 50, 61, 0.15) solid 1px;
@@ -82,6 +83,7 @@
 }
 
 .text-about h1 {
+  align-self: flex-start;
   color: #33323d;
   font-family: "Ibarra Real Nova", serif;
   font-size: 32px;
@@ -104,18 +106,28 @@
   text-align: justify;
 }
 
-.text-about button {
+.text-about button a {
+  text-decoration: none;
+  color: #33323d;
+}
+
+.text-about button a:hover {
+  color: #fafafa;
+}
+
+.text-about a button {
   align-self: center;
   width: 204px;
   height: 48px;
   color: #33323d;
   font-family: "Public Sans", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
   background-color: #fafafa;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .text-about button:hover {
@@ -123,4 +135,15 @@
   color: #fafafa;
 }
 
+.img-nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
+.img-nav .navbar-footer .link-home-footer a {
+  color: #5fb4a2;
+}
+
+.img-nav .navbar-footer .link-home-footer a:hover {
+  color: #ffffff;
+}

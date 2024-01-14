@@ -17,8 +17,8 @@
     <header>
       <img src="../../assets/logo-dark.svg" alt="Logo Dark" />
       <ul class="navbar-header">
-        <li class="link-home-header">HOME</li>
-        <li><a href="../portfolio/index.html" class="link-portfolio-header">PORTFOLIO</a></li>
+        <li class="link-home-header"><a href="#">HOME</a></li>
+        <li><a href="../portfolio/index.html">PORTFOLIO</a></li>
         <li>CONTATO</li>
       </ul>
     </header>
@@ -32,16 +32,18 @@
       <div class="text-hero">
         <h1>Olá, me chamo Alex Spencer e eu amo construir websites lindos</h1>
 
-        <button class="botao-sobre">
-          <img
-            src="../../assets/botao-sobre1.svg"
-            alt="Botão Sobre 01"
-            class="img-botao"
-          />sobre mim
-        </button>
+        <a href="#about">
+          <button class="botao-sobre">
+            <img
+              src="../../assets/botao-sobre1.svg"
+              alt="Botão Sobre 01"
+              class="img-botao"
+            />sobre mim
+          </button>
+        </a>
       </div>
     </section>
-    <div class="container-about">
+    <div id="about" class="container-about">
       <img
         src="../../assets/home/image-homepage-profile.jpg"
         alt="Minha foto de perfil"
@@ -60,7 +62,7 @@
           Eu adoro estar próximo a natureza seja para uma caminhada, corrida ou
           ciclismo. Eu amaria se você desse uma olhada no meu trabalho.
         </p>
-        <button>ir para portfolio</button>
+        <a href="../portfolio/index.html"><button>ir para portfolio</button></a>
       </div>
     </div>
     <div class="contato">
@@ -71,18 +73,24 @@
       <div class="img-nav">
         <img src="../../assets/logo-light.svg" alt="Logo Light" />
         <ul class="navbar-footer">
-          <li class="link-home-footer">HOME</li>
-          <li>PORTFOLIO</li>
+          <li class="link-home-footer"><a href="#">HOME</a></li>
+          <li><a href="../portfolio/index.html">PORTFOLIO</a></li>
           <li>CONTATO</li>
         </ul>
       </div>
       <div class="icons-redes">
-        <img src="../../assets/icons/github-light.svg" alt="Icone Facebook" />
-        <img src="../../assets/icons/twitter-light.svg" alt="Icone Twitter" />
-        <img
-          src="../../assets/icons/linkedin-light.svg"
-          alt="Icone Pinterest"
-        />
+        <a href="https://github.com"
+          ><img src="../../assets/icons/github-light.svg" alt="Icone GitHub"
+        /></a>
+        <a href="https://twitter.com"
+          ><img src="../../assets/icons/twitter-light.svg" alt="Icone Twitter"
+        /></a>
+        <a href="https://linkedin.com">
+          <img
+            src="../../assets/icons/linkedin-light.svg"
+            alt="Icone Linkedin"
+          />
+        </a>
       </div>
     </footer>
   </body>
