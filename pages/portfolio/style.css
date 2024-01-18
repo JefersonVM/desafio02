@@ -1,8 +1,16 @@
-.link-portfolio-header {
+.link-portfolio-header a {
   color: #5fb4a2;
 }
 
+.link-portfolio-header a:hover {
+  color: #33323d;
+}
+
 .link-portfolio-header:hover {
+  color: #33323d;
+}
+
+header ul li a {
   color: #33323d;
 }
 
@@ -82,4 +90,16 @@
 
 .img-nav .navbar-footer .link-home-footer a:hover {
   color: #5fb4a2;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+.link-portfolio-footer a {
+  color: #5fb4a2;
+}
+
+.link-portfolio-footer a:hover {
+  color: #fff;
 }

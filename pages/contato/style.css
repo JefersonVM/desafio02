@@ -28,7 +28,7 @@ header ul li a {
   max-height: 180px;
   color: #33323d;
   text-align: justify;
-  font-family: "Public Sans";
+  font-family: "Public Sans" sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -67,18 +67,34 @@ header ul li a {
   letter-spacing: -0.357px;
 }
 
-.container-contato input {
+.inputs-contato input {
   width: 635px;
   height: 48px;
-  opacity: 0.1;
-  background-color: #33323d;
+  padding: 10px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  background-color: rgba(51, 50, 61, 0.1);
+  color: #33323d;
 }
 
-.container-contato textarea {
+.inputs-contato textarea {
   width: 635px;
   height: 96px;
-  opacity: 0.1;
-  background-color: #33323d;
+  padding: 10px;
+  background-color: rgba(51, 50, 61, 0.1);
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  background-color: rgba(51, 50, 61, 0.1);
+  color: #33323d;
+}
+
+.inputs-contato input,
+.inputs-contato textarea {
+  border: none;
 }
 
 .container-contato span {
@@ -103,6 +119,10 @@ header ul li a {
   border: none;
   cursor: pointer;
   margin-top: 15px;
+}
+
+.container-contato button:hover {
+  background-color: #5fb4a2;
 }
 
 .inputs-contato {
