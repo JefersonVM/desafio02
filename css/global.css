@@ -16,6 +16,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
   cursor: pointer;
@@ -91,7 +95,6 @@ footer {
   color: #fff;
 }
 
-
 footer ul li a:hover {
   color: #5fb4a2;
 }
@@ -103,7 +106,6 @@ footer ul li a:hover {
 
 .icons-redes a {
   align-self: center;
-  
 }
 
 .contato {

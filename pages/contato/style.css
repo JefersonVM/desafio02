@@ -1,0 +1,132 @@
+.container-entre-em-contato {
+  display: flex;
+  justify-content: space-between;
+  border-top: rgb(51, 50, 61, 0.15) solid 1px;
+  margin: 85px 165px 20px 165px;
+  padding-top: 48px;
+}
+
+header ul li a {
+  color: #33323d;
+}
+
+.link-contato-header a {
+  color: #5fb4a2;
+}
+
+.container-entre-em-contato h1 {
+  color: #33323d;
+  font-family: "Ibarra Real Nova", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+}
+
+.container-entre-em-contato p {
+  max-width: 635px;
+  max-height: 180px;
+  color: #33323d;
+  text-align: justify;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.links-contato {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.link-contato-header a:hover {
+  color: #33323d;
+}
+.texto-contato {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-contato {
+  display: flex;
+  justify-content: space-between;
+  border-top: rgb(51, 50, 61, 0.15) solid 1px;
+  margin: 50px 165px 50px 165px;
+  padding-top: 48px;
+}
+
+.container-contato h1 {
+  color: #33323d;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+}
+
+.container-contato input {
+  width: 635px;
+  height: 48px;
+  opacity: 0.1;
+  background-color: #33323d;
+}
+
+.container-contato textarea {
+  width: 635px;
+  height: 96px;
+  opacity: 0.1;
+  background-color: #33323d;
+}
+
+.container-contato span {
+  color: #33323d;
+  font-family: "Public Sans";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.container-contato button {
+  width: 200px;
+  height: 48px;
+  background-color: #203a4c;
+  color: #fff;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.inputs-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #33323d;
+  margin-bottom: 20px;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+.link-contato-footer a {
+  color: #5fb4a2;
+}
+
+.link-contato-footer a:hover {
+  color: #fff;
+}
