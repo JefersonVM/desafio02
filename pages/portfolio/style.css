@@ -65,7 +65,7 @@ header ul li a {
   text-align: justify;
 }
 
-.text-portfolio button {
+.text-portfolio button{
   width: 204px;
   height: 48px;
   color: #33323d;
@@ -76,11 +76,16 @@ header ul li a {
   text-transform: uppercase;
   background-color: #fafafa;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .text-portfolio button:hover {
   background-color: #33323d;
   color: #fafafa;
+}
+
+.text-portfolio a {
+  width: 204px;
 }
 
 .img-nav .navbar-footer .link-home-footer a {

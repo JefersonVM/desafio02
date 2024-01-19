@@ -85,6 +85,12 @@ header ul li a {
   border: 1px solid #33323d;
   margin-top: 32px;
   margin-bottom: 48px;
+  cursor: pointer;
+}
+
+.apresentacao-menage button:hover {
+  background-color: #33323d;
+  color: #fff;
 }
 
 .apresentacao-projeto {
