@@ -1,8 +1,6 @@
-![](https://i.imgur.com/xG74tOh.png)
+# Desafio | Front-end
 
-# Desafio | Front-end - Módulo 2
-
-O objetivo deste exercício é replicar o website encontrado no figma [``Desafio front academy 1.fig``](https://www.figma.com/file/79R31SMg3mwnd9AWRa3nIF/Desafio-front-academy-md02?node-id=0%3A1&t=LPHOqT9G1QSvmHjY-1).
+O objetivo deste desafio é replicar o website encontrado no figma [``Desafio front academy 1.fig``](https://www.figma.com/file/79R31SMg3mwnd9AWRa3nIF/Desafio-front-academy-md02?node-id=0%3A1&t=LPHOqT9G1QSvmHjY-1).
 
 ## Páginas obrigatórias
 
@@ -10,11 +8,16 @@ O objetivo deste exercício é replicar o website encontrado no figma [``Desafio
 
 ## Páginas opcionais
 
-- [Portfolio](#Portfolio)
-- [Portfolio - 01 - Manage](#Portfolio---01---Manage)
-- [Portfolio - 02 - Bookmark](#Portfolio---02---Bookmark)
-- [Portfolio - 03 - Insure](#Portfolio---03---Insure)
-- [Portfolio - 04 - Fylo](#Portfolio---04---Fylo)
+- [Desafio | Front-end](#desafio--front-end)
+  - [Páginas obrigatórias](#páginas-obrigatórias)
+  - [Páginas opcionais](#páginas-opcionais)
+    - [Home](#home)
+    - [Portfolio](#portfolio)
+    - [Portfolio - 01 - Manage](#portfolio---01---manage)
+    - [Portfolio - 02 - Bookmark](#portfolio---02---bookmark)
+    - [Portfolio - 03 - Insure](#portfolio---03---insure)
+    - [Portfolio - 04 - Fylo](#portfolio---04---fylo)
+          - [tags: `front-end` `HTML` `CSS` `desafio`](#tags-front-end-html-css-desafio)
 
 ### Home
 
@@ -130,6 +133,5 @@ Seções
 
 
 
-**LEMBRE-SE**: Feito é melhor do que perfeito, mas não faça mal feito!!!
 
-###### tags: `front-end` `módulo 2` `HTML` `CSS` `desafio`
+###### tags: `front-end` `HTML` `CSS` `desafio`
